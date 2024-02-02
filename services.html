@@ -4,52 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Janis Papai - Services</title>
-    <link rel="stylesheet" href="style.css"> 
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            color: #333;
         }
-
+    
         nav {
-            background-color: #333;
+            background-color: #000; /* Change to black */
             color: #fff;
             text-align: center;
             padding: 1em 0;
+            border-bottom: none; /* Remove the border */
         }
-
+    
         nav ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
         }
-
+    
         nav ul li {
+            color: #000;
             display: inline;
             margin-right: 20px;
         }
-
+    
         nav a {
             text-decoration: none;
-            color: #fff;
+            color: #fff; /* Change to white */
             font-weight: bold;
         }
-
+    
         h1 {
             text-align: center;
             padding: 20px;
+            color: #2c3e50;
         }
-
-        h2, p {
-            background-color: #fff;
-            padding: 20px;
-            margin: 10px;
+    
+        div {
+            margin: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            background: #fff;
+        }
+    
+        h2, p, ul, li {
+            padding: 20px;
+            margin: 0;
+        }
+    
+        h2 {
+            background-color: #3498db;
+            color: #fff;
+            border-bottom: 2px solid #2980b9;
+        }
+    
+        p, ul {
+            background-color: #ecf0f1;
+            border-top: 2px solid #bdc3c7;
+        }
+    
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+    
+        li {
+            line-height: 1.6;
+            border-bottom: 1px solid #bdc3c7;
         }
     </style>
+    
 </head>
 <body>
     <nav>
@@ -68,10 +98,41 @@
     </div>
     
     <div>
-        <h2>Qualifications</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+        <h2>Professional Achievements</h2>
+        <p>
+            As a seasoned programmer, I have successfully led and contributed to various projects, including:
+            <ul>
+                <li>Developed a robust e-commerce platform, increasing sales by 30% within the first quarter.</li>
+                <li>Collaborated on a cross-functional team to implement cutting-edge machine learning algorithms for data analysis.</li>
+                <li>Received recognition for optimizing codebase, resulting in a 20% improvement in application performance.</li>
+            </ul>
+        </p>
     </div>
 
-    <!-- Add more sections as needed -->
+    <div>
+        <h2>Work Experience</h2>
+        <ul>
+            <li>Senior Software Engineer at XYZ Tech Solutions - Contributed to the development of innovative software solutions and led a team of developers.</li>
+            <li>Software Developer at ABC Software - Collaborated with cross-functional teams to deliver high-quality software products.</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Motivation</h2>
+        <ul>
+            <li>Create meaningful and efficient solutions to complex problems.</li>
+            <li>Stay at the forefront of technological advancements and contribute to the evolution of the tech industry.</li>
+            <li>Inspire and mentor the next generation of programmers through knowledge sharing and community engagement.</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Qualifications</h2>
+        <ul>
+            <li>Bachelor's degree in Computer Science from XYZ University.</li>
+            <li>Certification in Full Stack Web Development from ABC Coding Academy.</li>
+            <li>Active participation in tech communities and continuous learning through workshops and conferences.</li>
+        </ul>
+    </div>
 </body>
 </html>
